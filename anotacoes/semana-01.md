@@ -1,8 +1,9 @@
-# 📝 Semana 01 — Python para automação
+# 📝 Semana 01 — Python — fundamentos e como a linguagem pensa
 
 > **Fase:** 1 — Base DevOps/SRE
 > **Período:** ___/___/___ a ___/___/___
-> **Ritmo:** 1 h por dia
+> **Ritmo:** 1 h por dia, de segunda a sábado
+> **Plano:** [Fase 1](../plano/fase-1-base-devops-sre.md) · **Exercícios:** [semana-01-python](../exercicios/fase-1/semana-01-python.md) · **Materiais:** [recursos](../recursos/por-semana.md)
 
 ---
 
