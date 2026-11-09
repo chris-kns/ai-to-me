@@ -16,15 +16,37 @@
 
 <!-- Liste os conceitos mais importantes (use bullet points) -->
 
-- 
+-
+
+---
+
+## 🧪 Autoteste
+
+> Feche TODO o material. Abra um arquivo vazio. Consigo reproduzir o que aprendi?
+
+- [ ] Sim, consegui sem consultar
+- [ ] Precisei consultar — revisar:
+  - <!-- anote aqui o que precisou olhar de novo -->
 
 ---
 
 ## Comandos / snippets úteis
 
-```bash
+```python
 # Cole aqui comandos ou trechos de código que queira guardar
 ```
+
+---
+
+## ✏️ Exercícios práticos
+
+> **Regra 1:1** — cada hora de conteúdo = 1 hora escrevendo código, sem tutorial aberto.
+
+| Exercício | Conceito praticado | Consegui sozinho? |
+|-----------|--------------------|-------------------|
+|           |                    | [ ] sim / [ ] não |
+|           |                    | [ ] sim / [ ] não |
+|           |                    | [ ] sim / [ ] não |
 
 ---
 
@@ -32,7 +54,7 @@
 
 <!-- Registre o que ficou confuso ou travou. Revisite depois -->
 
-- 
+-
 
 ---
 
@@ -47,8 +69,30 @@
 
 ---
 
+## 🧠 Decisões e raciocínio
+
+> Registre aqui as decisões técnicas da semana e o "por quê" de cada uma.
+> **Teste:** se eu fosse questionado em uma entrevista, saberia explicar?
+
+| Decisão | Por quê? |
+|---------|----------|
+|         |          |
+|         |          |
+
+---
+
 ## Próximos passos
 
 <!-- O que levar para a próxima semana? Algo para revisar? -->
 
-- 
+-
+
+---
+
+## 🪞 Reflexão da semana
+
+- [ ] O que estudei essa semana aumenta minha capacidade de construir e demonstrar competência?
+- [ ] Sei explicar por que fiz dessa forma?
+- [ ] O que faria diferente?
+
+<!-- Anote aqui suas reflexões -->
