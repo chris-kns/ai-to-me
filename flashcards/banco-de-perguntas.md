@@ -57,7 +57,7 @@ Tipos: **C** conceito · **P** prática · **D** decisão.
 | Para que serve *multi-stage build*? | Compila/instala em um estágio e copia só o necessário para a imagem final: menor e com menos superfície de ataque. | D |
 | CI vs Continuous Delivery vs Continuous Deployment? | CI integra e testa a cada mudança. Delivery deixa o artefato pronto para publicar (com aprovação). Deployment publica automaticamente. | C |
 | Por que rodar container sem root? | Reduz o impacto de uma invasão. No OpenShift o container roda com UID arbitrário, então a imagem precisa funcionar assim. | D |
-| *Liveness* vs *readiness*? | Liveness: se falhar, reinicia o pod. Readiness: se falhar, tira o pod do balanceamento sem reiniciar. | C |
+| *Liveness* vs *readiness*? | Liveness: se falhar, o container é reiniciado. Readiness: se falhar, tira o pod do balanceamento sem reiniciar. | C |
 
 ## Observabilidade e SRE
 
