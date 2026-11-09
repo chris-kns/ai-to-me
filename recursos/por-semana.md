@@ -1,11 +1,13 @@
 # Recursos e Materiais
 
-> Todos os links e materiais do plano, organizados por semana.
+> Todos os links e materiais do plano, organizados **na mesma numeração do plano** ([plano/](../plano/README.md)).
 > Legenda: 📖 Documentação · 🏋️ Exercícios · 🔧 Ferramenta
 
 ---
 
 ## 📌 Projeto principal: Sistema de Agendamento
+
+> Especificação, regras e ADRs: [projetos/agendamento-api](../projetos/agendamento-api/README.md)
 
 O projeto que vai acompanhar você do meio ao fim do plano. Comece a pensar nele desde cedo e implemente-o gradualmente a partir da Semana 7.
 
@@ -19,28 +21,38 @@ O projeto que vai acompanhar você do meio ao fim do plano. Comece a pensar nele
 
 ## Fase 1 — Base DevOps/SRE
 
-### Semana 1: Python para automação
+### Semana 1: Python — fundamentos e como a linguagem pensa
 - 📖 [Tutorial oficial do Python](https://docs.python.org/3/tutorial/)
-- 📖 [WSL2 — Documentação Microsoft](https://learn.microsoft.com/windows/wsl/)
 - 📖 [Python — venv](https://docs.python.org/3/library/venv.html)
-- 🏋️ **Mini projetos sugeridos:** conversor de moeda, gerenciador de tarefa no terminal, sistema de cadastro, leitor de arquivo, jogo no terminal
+- 📖 [Python — pathlib](https://docs.python.org/3/library/pathlib.html), [csv](https://docs.python.org/3/library/csv.html) e [json](https://docs.python.org/3/library/json.html)
+- 🔧 [WSL2 — Documentação Microsoft](https://learn.microsoft.com/windows/wsl/) (terminal Linux no Windows, opcional)
+- 🏋️ [Exercícios da Semana 1](../exercicios/fase-1/semana-01-python.md) · [Pegadinhas de Python](../fundamentos/pegadinhas-python.md)
+- 🏋️ **Mini projetos sugeridos:** conversor de moeda, gerenciador de tarefas no terminal, sistema de cadastro, leitor de arquivo, jogo no terminal
 
-### Semana 2: Git, CI/CD e Docker
+### Semana 2: Git, GitHub e organização de projeto
 - 📖 [Pro Git Book (gratuito)](https://git-scm.com/book/pt-br/v2)
-- 📖 [GitHub Actions — Docs](https://docs.github.com/actions)
-- 📖 [Docker — Get Started](https://docs.docker.com/get-started/)
-- 📖 [Dockerfile — Best Practices (multi-stage)](https://docs.docker.com/build/building/best-practices/)
-- 📖 [Python — Debugging (pdb)](https://docs.python.org/3/library/pdb.html)
-- 📖 [Python — Logging](https://docs.python.org/3/howto/logging.html)
+- 📖 [GitHub — Get started](https://docs.github.com/get-started)
+- 📖 [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
+- 📖 [Python Packaging — escrevendo o pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
+- 📖 [Python — Logging HOWTO](https://docs.python.org/3/howto/logging.html)
 - 📖 [Python — Type Hints](https://docs.python.org/3/library/typing.html)
+- 📖 [Python — Debugging (pdb)](https://docs.python.org/3/library/pdb.html)
 - 🏋️ **Projetos sugeridos:** sistema de biblioteca, controle de despesas, sistema de estoque
 
-### Semana 3: Ansible
-- 📖 [Ansible — Getting Started](https://docs.ansible.com/ansible/latest/getting_started/)
+### Semana 3: Docker e CI/CD
+- 📖 [Docker — Get Started](https://docs.docker.com/get-started/)
+- 📖 [Dockerfile — Best Practices (multi-stage)](https://docs.docker.com/build/building/best-practices/)
+- 📖 [Docker Compose](https://docs.docker.com/compose/)
+- 📖 [GitHub Actions — Docs](https://docs.github.com/actions)
+- 🔧 [Ruff](https://docs.astral.sh/ruff/) — lint e formatação
+- 🔧 [pre-commit](https://pre-commit.com/)
 
-### Semana 4: Prometheus, Grafana e SLOs
+### Semana 4: Ansible, Prometheus, Grafana e SLOs
+- 📖 [Ansible — Getting Started](https://docs.ansible.com/ansible/latest/getting_started/)
+- 📖 [Ansible — Roles](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html)
 - 📖 [Prometheus — Docs](https://prometheus.io/docs/)
 - 📖 [Grafana — Docs](https://grafana.com/docs/grafana/latest/)
+- 📖 [SRE Book — índice](https://sre.google/sre-book/table-of-contents/) (priorize *Service Level Objectives*, *Monitoring Distributed Systems* e *Postmortem Culture*)
 - 📖 [SRE Workbook — SLOs](https://sre.google/workbook/table-of-contents/)
 
 ---
@@ -68,6 +80,7 @@ O projeto que vai acompanhar você do meio ao fim do plano. Comece a pensar nele
 - 📖 [FastAPI — Tutorial](https://fastapi.tiangolo.com/tutorial/)
 - 📖 [Pydantic — Concepts](https://docs.pydantic.dev/latest/concepts/models/)
 - 📖 [FastAPI — Middleware](https://fastapi.tiangolo.com/tutorial/middleware/)
+- 📖 [Python — zoneinfo (fusos horários)](https://docs.python.org/3/library/zoneinfo.html)
 
 > **Nota:** Este é um bom momento para iniciar o **Projeto de Agendamento**. Comece com os endpoints básicos (CRUD de compromissos) e evolua nas semanas seguintes.
 
@@ -75,6 +88,10 @@ O projeto que vai acompanhar você do meio ao fim do plano. Comece a pensar nele
 - 📖 [SQLAlchemy 2.0 — Tutorial](https://docs.sqlalchemy.org/en/20/tutorial/)
 - 📖 [Alembic — Tutorial](https://alembic.sqlalchemy.org/en/latest/tutorial.html)
 - 📖 [FastAPI — SQL Databases](https://fastapi.tiangolo.com/tutorial/sql-databases/)
+- 📖 [PostgreSQL — Explicit Locking](https://www.postgresql.org/docs/current/explicit-locking.html)
+- 📖 [PostgreSQL — Transaction Isolation](https://www.postgresql.org/docs/current/transaction-iso.html)
+- 📖 [PostgreSQL — Range Types](https://www.postgresql.org/docs/current/rangetypes.html) e [btree_gist](https://www.postgresql.org/docs/current/btree-gist.html)
+- 🏋️ [Cenário de concorrência](../projetos/agendamento-api/cenarios-de-concorrencia.md)
 
 ---
 
@@ -125,6 +142,7 @@ O projeto que vai acompanhar você do meio ao fim do plano. Comece a pensar nele
 - 🏋️ [NeetCode Roadmap](https://neetcode.io/roadmap) — comece pelos Easy
 - 🔧 [VisuAlgo](https://visualgo.net/) — visualização de algoritmos
 - 📖 [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- 🏋️ [Banco de perguntas com resposta-base](../flashcards/banco-de-perguntas.md) · [Prompt do entrevistador](../agente/prompts/entrevistador-backend.md)
 - 🏋️ **Simulação de entrevista:** use uma IA (ChatGPT, Gemini etc.) como entrevistador de backend Python. Peça para ela fazer perguntas técnicas e avalie suas respostas.
 - 📖 **Perguntas-modelo para praticar:**
   - "Explique o GIL do Python e quando ele importa."
@@ -135,6 +153,7 @@ O projeto que vai acompanhar você do meio ao fim do plano. Comece a pensar nele
 
 ### Semana 16: Portfólio e entrevistas
 - 📖 [roadmap.sh/backend](https://roadmap.sh/backend) — conferir lacunas
+- 🔧 [Acompanhamento de candidaturas](../mercado/candidaturas.md) · [Análise de vagas](../mercado/analise-de-vagas.md)
 - 📖 [GitHub — Profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
 - 📖 **Estrutura de README profissional** — use este template nos seus projetos:
   - **Título e descrição** — o que o projeto faz, em uma frase
@@ -150,7 +169,6 @@ O projeto que vai acompanhar você do meio ao fim do plano. Comece a pensar nele
 
 ---
 
-## Pós-plano (opcional)
+## Pós-plano
 
-- 📖 [Node.js — Learn](https://nodejs.org/learn) + [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/)
-- 📖 [Go Tour](https://go.dev/tour/) + [Go by Example](https://gobyexample.com/)
+Veja [pos-plano.md](pos-plano.md): Terraform, cloud, Kubernetes avançado (CKA), Go, Node/TypeScript e Kafka.
